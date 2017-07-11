@@ -1,0 +1,215 @@
+$bgLightPink:#FFEEDE;
+$bgPink: #FFDCB3;
+$mainText:#444444;
+$mainLink:#FF0000;
+$underLink: #ffca3a;
+$logo: url("img/top3.jpg");
+$regular: cherrywash;
+$bold: cherrywashbold;
+$white: #FFFFFF;
+$nav: url("img/nav.jpg");
+$bg: url("img/bgleaf.jpg");
+
+
+@font-face {
+  font-family: "cherrywashbold";
+  src: url("cherrywash/cherryswash-bold-webfont.eot");
+  src: local("☺"),
+    url("cherrywash/cherryswash-bold-webfont.woff") format("woff"),
+    url("cherrywash/cherryswash-bold-webfont.otf") format("opentype"),
+    url("cherrywash/cherryswash-bold-webfont.svg") format("svg");
+  }
+
+ @font-face {
+  font-family: "cherrywash";
+  src: url("cherrywash/cherryswash-regular-webfont.eot");
+  src: local("☺"),
+    url("cherrywash/cherryswash-regular-webfont.woff") format("woff"),
+    url("cherrywash/cherryswash-regular-webfont.otf") format("opentype"),
+    url("cherrywash/cherryswash-regular-webfont.svg") format("svg");
+  }
+
+body {
+	margin: 0px;
+	font-family: $regular;
+	color:$mainText;
+	background-color: $bgLightPink;
+	background-image: $bg;
+	background-repeat: repeat-x;
+}
+form {text-align: center;}
+a {
+	color:$mainLink;
+	border-bottom: 1px solid $bgLightPink;
+	text-decoration: none;
+}
+footer {
+	clear:both;
+}
+ul {
+	list-style: none;
+}
+
+.color {
+	border-radius: 5px;
+	float:left;
+	width:20px;
+	height:20px;
+	margin-right: 3px;
+}
+
+#bgLightPink {
+	background-color: $bgLightPink;
+}
+#bgPink {
+	background-color: $bgPink;
+}
+#mainText {
+	background-color: $mainText;
+}
+#mainLink{
+	background-color: $mainLink;
+}
+#underLink{
+	background-color: $underLink;
+}
+
+#button {
+	background-color: $underLink;
+	border-radius: 15px;
+	border:0px;
+	height:35px;
+	margin: 10px;
+	font-family: $bold;
+	color: $mainLink;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#button:hover{
+	background-color: $bgPink;
+}
+a:hover {
+	color: $mainLink;
+}
+
+h3 {
+	text-align: center; 
+}
+span {
+	font-family: Verdana;
+}
+.tag1 {
+	border-radius: 15px;
+	background-color: $bgLightPink;
+	border: 0px;
+	height: 30px;
+	margin-bottom: 5px;
+}
+.tag2 {
+	border-radius: 15px;
+	background-color: $bgLightPink;
+	border: 0px;
+	height: 30px;
+	margin-bottom: 5px;
+}
+#wrap {
+	margin: 0px auto;
+	width: 100%;
+	max-width: 1200px;
+	min-width: 400px;
+	height: 100%;
+	background-color: #fff5ec;
+	border-right: 1px solid $bgPink;
+	border-left: 1px solid $bgPink;
+	
+}
+
+#wrapExtra {
+	margin:0px auto;
+	width: 100%;
+	max-width:800px;
+}
+.imgchoice {
+	border-radius: 15px;
+	width: 338px;
+	margin: 0px auto;
+	background-color: $white;
+	border: 1px solid $bgPink;
+	height: 400px;
+}
+.imgwrapper {
+	border-radius: 15px;
+	width: 338px;
+	float:left;
+	background-color: $white;
+	border: 1px solid $bgPink;
+	height: 400px;
+	margin: 15px;
+}
+
+
+.img {
+	width: 306px;
+	height: 306px;
+	margin: 0px auto;
+    margin-top:20px;
+}
+
+#img1 {
+
+	background-image: 
+    url(img/insta1.jpg),
+    url(img/insta2.jpg);
+	background-blend-mode: multiply;
+	background-size: 306px 306px, cover;
+}
+#img2 {
+	background-image: 
+    url(img/insta3.jpg),
+    url(img/insta4.jpg);
+	background-blend-mode: multiply;
+	background-size: 306px 306px, cover;
+}
+#img3 {
+	background-image: 
+    url(img/insta5.jpg),
+    url(img/insta6.jpg);
+	background-blend-mode: multiply;
+	background-size: 306px 306px, cover;
+}
+#img4 {
+	background-image: 
+    url(img/insta7.jpg),
+    url(img/insta8.jpg);
+	background-blend-mode: multiply;
+	background-size: 306px 306px, cover;
+}
+#imgtxt {
+	width:100%;
+	height: 64px;
+	padding:20px;
+}
+#top {
+	margin: 0px;
+	background-image: $logo;
+	height: 208px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#navigation {
+	background-image: $nav;
+	height: 35px;
+	margin: 0px;
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	font-family: $regular;
+	padding-top: 9px;	
+}
+
+#main {
+margin:30px;
+display: block;
+}
